@@ -1,12 +1,12 @@
 import React from 'react';
 import { Cluster, statusColors } from '@/data/platform';
 import Sparkline from '@/components/Sparkline';
-import { Server, Cpu, MemoryStick, Network, ChevronDown, ChevronUp, GitBranch, Shield, Trash2 } from 'lucide-react';
+import { Server, Cpu, MemoryStick, Network, ChevronUp, GitBranch, Shield, Trash2 } from 'lucide-react';
 
 interface ClusterCardProps {
   cluster: Cluster;
   cpuSeries: number[];
-  expanded: bo
+  expanded: boolean;
   onToggle: () => void;
   onRemove: () => void;
 }
