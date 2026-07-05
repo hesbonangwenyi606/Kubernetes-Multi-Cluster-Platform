@@ -6,7 +6,7 @@ import { Server, Cpu, MemoryStick, Network, ChevronDown, ChevronUp, GitBranch, S
 interface ClusterCardProps {
   cluster: Cluster;
   cpuSeries: number[];
-  expanded: boolean;
+  expanded: bo
   onToggle: () => void;
   onRemove: () => void;
 }
